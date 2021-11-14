@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protofilo</title>
+    <link rel="stylesheet" href="my-web.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="me">Portfolio</a>
+        <div id="toogle"></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#heading">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">work</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </header>
+
+
+    <section class="banner">
+        <div class="textBx">
+            <h2>Hello, I'm Prikshit Rana</h2>
+            <h3>i am Front end devloper and Embeddded tester </h3>
+            <a href="#" class="btn">About me</a>
+        </div>
+    </section>
+    <section class="about">
+        <div id="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">                
+            <div class="contentBx w50">
+                <h3><a href="https://www.jmit.ac.in/" style="color: black; text-decoration: none;">B.tech</a> </h3>
+                <p> Electronics and Communication in 2020</p>
+                <p>Seth Jai Prakash Mukandlal Institute of Eng. & Tech. ,Radaur </p><br>
+                <h3><a href="http://ipsjagadhri.org/index.html" style="color: black; text-decoration: none;">Class 12</a> </h3>
+                <p>Indian Public School,Jagadhari</p>
+                <p>Passing year 2015</p>
+                <br>
+                <h3><a href="http://ipsjagadhri.org/index.html" style="color: black; text-decoration: none;">Class 10</a> </h3>
+                <p>Lord Krishna Public School Nanauta, Saharanpur</p>
+                <p>Passing year 2013</p><br>
+            </div>
+            <div class="w50">
+                <img src="frnit.jpg" class="img" style="border-radius: 40px;" >
+            </div>
+        </div>
+    </section>
+<footer id="footer">
+     
+        <section >
+            <section class="alt">
+                <h3>Address</h3>
+                <p>Vill.:Dalheri, P.O.:Badgaon, Road #87257<br />
+                Dist.:Saharanpur, Uttar Pradesh ,247452</p><br>            
+                <h3>Phone</h3>
+                <p><a href="#">(+91) 8398990996</a></p><br>
+            
+                <h3>Email</h3>
+                <p><a href="#">ranaprikshit56@gmail.com</a></p>
+            
+                <h3>Social</h3>
+                <ul class="icons alt">
+                    <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="https://www.facebook.com/prikshit.rana.73" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com/rana_prikshit_98/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                </ul>
+            </section>
+        </section>
+</footer>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky',window.scrollY > 0);
+        })
+    
+    </script>
+
+
+    
+</body>
+</html>

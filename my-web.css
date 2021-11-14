@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+section{
+    padding: 100px;
+}
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background:url('banner.jpg') ;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner h2{
+    font-size: 3em;
+    color: #ffff;
+    font-weight: 500;
+    line-height: 1.5em;
+
+}
+.banner h2 span{
+    font-size: 3.5em;
+    font-weight: 700;
+}
+.banner h3{
+    font-size: 2em;
+    color: #ffff;
+    font-weight: 400;
+
+}
+.btn{
+    border: solid 2px #fff;
+    border-radius: 5px;
+    position: relative;
+    background:#2196f3 ;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration:none;
+    letter-spacing: 2px;
+    font-weight: 500;   
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index:1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.596);
+    padding: 20px;
+    
+}
+header .me{
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+header .logo{
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration:none ;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+header ul{
+    position: relative;
+    display: flex;
+
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    display:inline-block ;
+    color: #fff;
+    padding-left:20px ;
+    text-decoration: none;
+}
+#heading{
+    width: 100%;
+    text-align: center;
+
+    margin-bottom: 30px;
+    color: #111;
+}
+ #heading h2{
+     font-weight: 600;
+     font-size: 30px;
+ }
+ /* .about{
+     background: url("frnit.jpg");
+     height: 800px;
+     width: 800%;
+ } */
+
+.content{
+    display: inline-flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+
+}
+
+/* section div{
+    display: flex;
+} */
+.contentBx h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+.w50{
+    min-width:50%;
+}
+img{
+    max-width: 100%;
+    /* height: 400px; */
+}
+footer{
+    background-color: rgba(211, 211, 211, 0.452);
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    /* position: fixed; */
+    /* top: 7; */
+}
+footer section ul{
+    margin: auto;
+    
+    display: flex;
+    
+}
+footer section ul li,footer section ul li a{
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
